@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://silae@gerrit.vestel.com.tr/Sirius" name="denemeSila"/>
 
-  <default remote="amlogic" revision="bringup" sync-j="4"/>
+  <default sync-j="4"/>
 
   <project name="Sirius/p-amlogic/amlogic/tools/fip" path="bootloader/uboot-repo/fip">
     <copyfile dest="bootloader/uboot-repo/mk" src="mk"/>
